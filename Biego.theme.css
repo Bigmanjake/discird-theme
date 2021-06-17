@@ -1,0 +1,45 @@
+/**
+ * @name Biego
+ * @author Gibbu#1211
+ * @version 2.0.0
+ * @description Display your picture of choice with adjustable blur and brightness. Dark theme is required
+ * @source https://github.com/DiscordStyles/FrostedGlass
+ * @invite ZHthyCw
+ * @donate https://paypal.me/IanRGibson
+ * @website https://gibbu.me
+ * @authorId 174868361040232450
+*/
+
+@import url('https://discordstyles.github.io/FrostedGlass/base.css');
+@import url('https://discordstyles.github.io/Addons/windows-titlebar.css');
+
+:root {
+  --background-image: url('https://i.imgur.com/ZR00ijx.jpg');
+  --background-image-blur: 0px;
+  --background-image-size: contain;
+  --background-image-position: center;
+  --popout-modal-image: var(--background-image);
+  --popout-modal-blur: 0px;
+  --popout-modal-size: cover;
+  --popout-modal-position: center;
+  --home-button-image: url('https://i.imgur.com/6P968pc.png');
+  --home-button-size: cover;
+  --home-button-position: center;
+  --serverlist-brightness: 0.5;
+  --left-brightness: 0.5;
+  --middle-brightness: 0.5;
+  --right-brightness: 0;
+  --popout-modal-brightness: 0.48;
+  --gradient-primary: 103,58,183;
+  --gradient-secondary: 63,81,181;
+  --link-colour: #00b0f4;
+  --scrollbar-colour: rgba(255,255,255,0.05);
+  --gradient-direction: 320deg;
+  --tint-colour: 127,173,73;
+  --tint-brightness: 0.12;
+  --font: Whitney;
+  --window-padding: 10px;
+  --window-roundness: 19px;
+  --show-gift-gif-buttons: none;
+  --update-notice-1: none;
+}
